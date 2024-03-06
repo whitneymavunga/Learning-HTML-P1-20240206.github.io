@@ -1,0 +1,149 @@
+<DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!--used by the keyboard-->
+    <meta charset="utf-8">
+
+    <title>MetaData</title>
+    <!--Tab Favicon Image can be changed to, Goodle this-->
+    <!--https://www.w3schools.com/howto/howto_html_favicon.asp, accesed 20240214-->
+
+    <!--used by browser or Google Search-->
+    <meta name="author" content="Whitney Mavunga">
+    <meta name="description" content="Learning HTML by building a simple Website">
+    <meta name="keywordss" content="learning, html, boilerplate, starter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
+    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
+    <!-- Other meta attributes to be aware of -->
+    <!-- meta http-equiv="refresh" content="30"-->
+    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
+    <!-- Use this when refreshes are needed -->
+    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
+    <!-- Already specified in the charset above-->
+    <!--Cyber Security Note About Javascript in Browsers-->
+
+    <!--Websites Load in a specific order:Head, CSS, Javascript then the body-->
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-size: 2vw;
+        }
+        div { border :thin dorted red; }
+
+        .header {
+            border: 1px solid green;
+            padding: 15px;
+            font-size: 4vw;
+        }
+
+        .nav 
+            {width: 25%;
+            float: left;
+            padding: 15px;
+            border: 1px solid rgb(19,0,128);
+        }
+
+        .main 
+            {width: 50%;
+            float: left;
+            padding: px;
+            border:1px solid rgb(19,0,128);
+        }
+
+        .aside 
+            { width: 25%;
+            float: left;
+            padding: 15px;
+            border: 1px solid rgb(19,0,128);
+        }
+
+        .footer {
+            padding: 15px;
+            border:1px solid rgb(19,0,128)
+        }
+
+        .section { width: 50%;
+            float: left;
+            padding: px;
+            border:1px solid rgb(19,0,128);
+
+        }
+
+    </style>
+
+    <noscript>Running Javascript is not necessary in the HTML page... FYI: your feature to execute scripts is turned off. </noscript>
+
+</head>
+
+<!--Start here, BODY Semantic Tags-->
+<body>
+    <div>Viewports units are off</div>
+    <header class="header">
+       <h1 style="text-align: center;"> MetaData Page</h1>
+       <h3 style="text-align: center;"> To view Look in Microsoft Visual Code Studio or Github Pencil Feature</h3>
+       <p> The MetaData should change with each Website</p>
+    </header>
+    <nav class="nav">
+       <h3 style="text-align: center;">Navigation H-Tags, in h3</h3>
+       <p>Paragraph Tag any writing</p>
+       <a>Hyperlink, text only, in a tag</a>
+    </nav>
+    <main class="main">
+        <h1>Main, H-Tags, in h1</h1>
+        <h2> H2: text</h2>
+        <h3> H3: text</h3>
+        <h4> H4: text</h4>
+        <h5> H5: text</h5>
+        <h6> H6: text</h6>
+        <p>Paragraph can include different types of <sup>big</sup> writing and <sub>small</sub> writing</p>
+        <a>Hyperlink, text only, in a tag</a>
+        <br>
+        <br>
+        <section class="section">
+            <h2>Section H-Tag, in h2</h2>
+            <h3>Subheading usually stops at h3, in h3</h3>
+            <p>H2 is the largest. Put anthing in SECTION-tags</p>
+            <a>Hyperlink, text only, in a tag</a>
+            <br><br>
+            <article class="section">
+                <h2>Article H-Tags, in h2</h2>
+                <h3>SubHeadings usually stop at H3, in h3</h3>
+                <p>Writing Only in P-Tags</p>
+                <a>Hyperlink, text only, in a-tag</a>
+                </article>
+        </section>
+    </main>
+    <aside class="aside">
+        Aside Space, H-Tags
+       <h2> H2: largest h-tag</h2>
+       <h3> H3: text</h3>
+       <h4> H4: text</h4>
+       <h5> H5: text</h5>
+       <h6> H6: text</h6>
+       <p>Paragraph Tag</p>
+       <a>Hyperlink, text only, in a tag</a>
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </aside>
+    </article>
+    <footer class="footer">
+       <h1 style="text-align: center;">Footer H-Tags in h1</h1>
+       <p style="text-align: center">Paragraph Tag</p>
+    </footer>
+</body>
+<footer style="text-align: center">
+    <blockquote cite="">
+        <!--Date Accessed 20240214-->
+    </blockquote>
+    <p>
+        <strong>"Out of sight Out of mind"</strong>
+        
+         <em> - Maddie Perez </em>
+    </p>
+   <p> &copy Whitney Mavunga, powered by haumeastudios in Github</p>
+   <!--Other information possible like Number of Visitor, Location, author contact information-->
+   </footer>
+</html>
+
